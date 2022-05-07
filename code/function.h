@@ -1,5 +1,5 @@
 #pragma once
-
+//chanched online
 #include <iostream>
 
 class Function
@@ -71,7 +71,7 @@ class Minus : public Function
 
 class Iloczyn : public Function
 {
-	//uzupe³nij
+	//uzupeï¿½nij
 
 
 
@@ -82,7 +82,7 @@ class Iloczyn : public Function
 
 class Wielomian : public Function
 {
-	//uzupe³nij
+	//uzupeï¿½nij
 
 
 

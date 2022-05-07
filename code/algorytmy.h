@@ -1,5 +1,5 @@
 #pragma once
-
+// ???
 #include <complex>
 #include "function.h"
 #include "tab2d.h"
@@ -25,10 +25,10 @@ void fraktal(const Function<complex<double> >& f, const complex<double>& q) noex
 template <typename T>
 T pierwiastek(const Function<T>& f, T x, int& it)	throw(...)
 {
-	double eps = 1e-6;   // dok³adnoœæ obliczeñ
+	double eps = 1e-6;   // dokï¿½adnoï¿½ï¿½ obliczeï¿½
 	int max_it = 50;	 //maksymalna liczba iteracji
 
-	//uzupe³nij
+	//uzupeï¿½nij
 
 
 
@@ -57,7 +57,7 @@ void fraktal(const Function<std::complex<double> >& f, const std::complex<double
 			}
 			catch (...)
 			{
-				// nawet jeœli brak zbie¿noœci interesuje nas liczba wykonanych iteracji				
+				// nawet jeï¿½li brak zbieï¿½noï¿½ci interesuje nas liczba wykonanych iteracji				
 			}
 			frrr(i, j) = element(it);
 		}
